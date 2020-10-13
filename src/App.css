@@ -1,0 +1,97 @@
+.start {
+  width: 150px;
+  padding: 5px 0;
+  background-color: lightpink;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 150px;
+  font-family: "Brush Script MT";
+  margin: 10px 10px;
+}
+.start:hover {
+  background-color: whitesmoke;
+}
+.reset {
+  width: 150px;
+  padding: 5px 0;
+  background-color: lightpink;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 150px;
+  margin-left: 20px;
+  display: inline-block;
+  font-family: "Brush Script MT";
+}
+.reset:hover {
+  background-color: whitesmoke;
+}
+.submit {
+  width: 150px;
+  padding: 5px 0;
+  background-color: lightpink;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 150px;
+  font-family: "Brush Script MT";
+  margin: 0;
+  position: relative;
+  transform: translateY(50%);
+  transform: translateX(20%);
+}
+.submit:hover {
+  background-color: whitesmoke;
+}
+
+.contain {
+  width: 700px;
+  margin: 5px auto 10px;
+  text-align: center;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: white;
+  width: 300px;
+  box-shadow: 6px 6px 5px pink;
+  font-size: 50px;
+  font-family: "Brush Script MT";
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: pink;
+  position: fixed;
+}
+
+.form-control {
+  font-size: 30px;
+}
+
+.titleFather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+  box-shadow: 0px 2px 5px gray;
+  background-color: lightpink;
+  margin-bottom: 10px;
+}
+.title {
+  width: 50%;
+  font-family: "Brush Script MT";
+  margin-bottom: 10px;
+}
+.statistics {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 70%;
+  font-family: "Brush Script MT";
+}
